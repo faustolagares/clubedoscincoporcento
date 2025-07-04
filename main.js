@@ -93,7 +93,7 @@ document.querySelector('#app').innerHTML = `
     </section>
     
     <!-- Features Section -->
-    <section class="py-16 lg:py-20 bg-primary">
+    <section class="py-24 lg:py-20 bg-primary">
       <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div class="features-grid-container">
           <!-- Feature 1 -->
@@ -169,7 +169,7 @@ document.querySelector('#app').innerHTML = `
     </section>
     
     <!-- White Section with Image -->
-    <section class="pt-8 pb-1 lg:pt-12 lg:pb-2 bg-white">
+    <section class="pt-24 pb-1 lg:pt-12 lg:pb-2 bg-white">
       <div class="container-custom">
         <div class="flex justify-center items-center">
           <img 
@@ -182,7 +182,7 @@ document.querySelector('#app').innerHTML = `
     </section>
     
     <!-- New Life Section -->
-    <section class="py-16 lg:py-24 bg-white">
+    <section class="py-24 lg:py-24 bg-white">
       <div class="container-custom">
         <div class="text-center mx-auto">
           <!-- Headline -->
@@ -439,7 +439,7 @@ document.querySelector('#app').innerHTML = `
     </section>
     
     <!-- Problema/Solução Section -->
-    <section class="py-16 lg:py-24 bg-white">
+    <section class="py-24 lg:py-24 bg-white">
       <div class="container-custom px-4 sm:px-6 lg:px-8">
         <div class="text-center max-w-4xl mx-auto animate-fade-in">
           <!-- Headline -->
@@ -501,7 +501,7 @@ document.querySelector('#app').innerHTML = `
     </section>
     
     <!-- Testimonials Section -->
-    <section class="testimonials-section py-16 lg:py-24 bg-primary">
+    <section class="testimonials-section py-24 lg:py-24 bg-primary">
       <div class="container-custom px-4 sm:px-6 lg:px-8">
         <div class="text-center max-w-6xl mx-auto">
           <!-- Headline -->
@@ -801,7 +801,7 @@ document.querySelector('#app').innerHTML = `
     </section>
     
     <!-- Explicação do Produto Section -->
-    <section class="py-16 lg:py-24 bg-primary">
+    <section class="py-24 lg:py-24 bg-primary">
       <div class="container-custom px-4 sm:px-6 lg:px-8">
         <div class="text-center max-w-4xl mx-auto">
           <!-- Main Headline -->
@@ -816,18 +816,13 @@ document.querySelector('#app').innerHTML = `
             </div>
             <!-- Headline Text -->
             <h2 class="text-h2-mobile lg:text-h2-desktop font-aeonik font-medium text-white">
-            Um guia completo — e prático<br>
-            para o seu desenvolvimento
+              <span class="lg:hidden">Um guia completo —<br>e prático para o<br>seu desenvolvimento</span>
+              <span class="hidden lg:inline">Um guia completo — e prático<br>para o seu desenvolvimento</span>
             </h2>
           </div>
           
-          <!-- Subtitle -->
-            <p class="text-subtitle-mobile lg:text-subtitle-desktop text-white/90 mb-4 animate-slide-up">
-              Um guia completo
-            </p>
-          
           <!-- Intro Text -->
-          <p class="text-body-mobile lg:text-body-desktop text-white mb-12 animate-slide-up">
+          <p class="text-subtitle-mobile lg:text-subtitle-desktop text-white/90 mb-12 animate-slide-up">
             Escolha a trilha que você quer seguir:
           </p>
           
@@ -918,7 +913,7 @@ document.querySelector('#app').innerHTML = `
     </section>
     
     <!-- Journey Section -->
-    <section class="py-16 lg:py-24 bg-primary">
+    <section class="py-24 lg:py-24 bg-primary">
       <div class="container-custom px-4 sm:px-6 lg:px-8">
         <div class="text-center max-w-6xl mx-auto">
           <!-- Headline -->
@@ -982,7 +977,7 @@ document.querySelector('#app').innerHTML = `
     </section>
     
     <!-- Offer Explanation Section -->
-    <section class="py-16 lg:py-24 bg-white">
+    <section class="py-24 lg:py-24 bg-white">
       <div class="container-custom px-4 sm:px-6 lg:px-8">
         <div class="text-center max-w-6xl mx-auto">
           <!-- Main Headline -->
@@ -999,9 +994,8 @@ document.querySelector('#app').innerHTML = `
                 <img src="https://ucarecdn.com/362ee62e-230c-4ca7-8e61-951122fbc8c3/1anodeacesso.png" alt="Ícone 1 ano de acesso" class="w-full h-full object-contain">
               </div>
               <h3 class="text-h4-mobile lg:text-h4-desktop font-aeonik font-medium text-white mb-4">
-                1 ano de acesso<br>
-                integral ao Clube<br>
-                dos 5%.
+                1 ano de acesso integral<br>
+                ao Clube dos 5%
               </h3>
             </div>
             
@@ -1011,11 +1005,9 @@ document.querySelector('#app').innerHTML = `
                 <img src="https://ucarecdn.com/899bbe0f-c169-46b2-9c2e-95c3b20533de/materialcomplementar.png" alt="Ícone material complementar" class="w-full h-full object-contain">
               </div>
               <h3 class="text-h4-mobile lg:text-h4-desktop font-aeonik font-medium text-white mb-4">
-                Material<br>
-                complementar<br>
-                (Workbooks)<br>
-                práticos de cada<br>
-                série.
+                Material complementar<br>
+                (Workbooks) práticos<br>
+                de cada série
               </h3>
             </div>
             
@@ -1025,8 +1017,8 @@ document.querySelector('#app').innerHTML = `
                 <img src="https://ucarecdn.com/75396a16-33b3-4794-a169-569cb42e89c7/suportetecnico.png" alt="Ícone suporte técnico" class="w-full h-full object-contain">
               </div>
               <h3 class="text-h4-mobile lg:text-h4-desktop font-aeonik font-medium text-white mb-4">
-                Acompanhamento<br>
-                e suporte técnico.
+                Acompanhamento e<br>
+                suporte técnico
               </h3>
             </div>
             
@@ -1036,11 +1028,10 @@ document.querySelector('#app').innerHTML = `
                 <img src="https://ucarecdn.com/605e2cb0-2af7-4ea4-ac2d-e48db1aa2402/12ciclosdeestudo.png" alt="Ícone 12 ciclos de estudo" class="w-full h-full object-contain">
               </div>
               <h3 class="text-h4-mobile lg:text-h4-desktop font-aeonik font-medium text-white mb-4">
-                12 ciclos de estudos<br>
-                prontos para você<br>
-                devorar e acelerar<br>
+                12 ciclos de estudos prontos<br>
+                para você devorar e acelerar<br>
                 o seu processo de<br>
-                autoconhecimento.
+                autoconhecimento
               </h3>
             </div>
           </div>
@@ -1124,7 +1115,7 @@ document.querySelector('#app').innerHTML = `
     </section>
     
     <!-- Pricing Section -->
-    <section id="pricing" class="py-16 bg-white">
+    <section id="pricing" class="py-24 bg-white">
       <div class="container-custom">
         <div class="max-w-4xl mx-auto">
           <!-- Recapitular -->
@@ -1136,70 +1127,70 @@ document.querySelector('#app').innerHTML = `
             <div class="bg-gray-100 border-2 border-gray-300 rounded-lg p-8 mb-12">
               <div class="space-y-6 text-left">
                 <div class="flex items-start gap-4">
-                  <div class="w-6 h-6 border-2 border-primary rounded flex items-center justify-center mt-1 flex-shrink-0">
-                    <svg class="w-4 h-4 text-primary" fill="currentColor" viewBox="0 0 20 20">
+                  <div class="w-6 h-6 rounded-full flex items-center justify-center mt-1 flex-shrink-0" style="background-color: #22c55e;">
+                    <svg class="w-4 h-4 text-white" fill="currentColor" viewBox="0 0 20 20">
                       <path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd"></path>
                     </svg>
                   </div>
                   <div class="flex-1">
                     <span class="text-lg text-primary font-medium">
                       Acesso ao Clube dos 5% por 12 meses - 
-                      <span class="line-through text-gray-500">R$2.997</span>
+                      <span class="line-through" style="color: #ef4444;">R$2.997</span>
                     </span>
                   </div>
                 </div>
                 
                 <div class="flex items-start gap-4">
-                  <div class="w-6 h-6 border-2 border-primary rounded flex items-center justify-center mt-1 flex-shrink-0">
-                    <svg class="w-4 h-4 text-primary" fill="currentColor" viewBox="0 0 20 20">
+                  <div class="w-6 h-6 rounded-full flex items-center justify-center mt-1 flex-shrink-0" style="background-color: #22c55e;">
+                    <svg class="w-4 h-4 text-white" fill="currentColor" viewBox="0 0 20 20">
                       <path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd"></path>
                     </svg>
                   </div>
                   <div class="flex-1">
                     <span class="text-lg text-primary font-medium">
                       12 Ciclos de Estudos Completos com Guias de Aplicação Prática - 
-                      <span class="line-through text-gray-500">12x R$997</span>
+                      <span class="line-through" style="color: #ef4444;">12x R$997</span>
                     </span>
                   </div>
                 </div>
                 
                 <div class="flex items-start gap-4">
-                  <div class="w-6 h-6 border-2 border-primary rounded flex items-center justify-center mt-1 flex-shrink-0">
-                    <svg class="w-4 h-4 text-primary" fill="currentColor" viewBox="0 0 20 20">
+                  <div class="w-6 h-6 rounded-full flex items-center justify-center mt-1 flex-shrink-0" style="background-color: #22c55e;">
+                    <svg class="w-4 h-4 text-white" fill="currentColor" viewBox="0 0 20 20">
                       <path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd"></path>
                     </svg>
                   </div>
                   <div class="flex-1">
                     <span class="text-lg text-primary font-medium">
                       Box de Livros Best-Seller de Jacob Petry - 
-                      <span class="line-through text-gray-500">R$149,00</span>
+                      <span class="line-through" style="color: #ef4444;">R$149,00</span>
                     </span>
                   </div>
                 </div>
                 
                 <div class="flex items-start gap-4">
-                  <div class="w-6 h-6 border-2 border-primary rounded flex items-center justify-center mt-1 flex-shrink-0">
-                    <svg class="w-4 h-4 text-primary" fill="currentColor" viewBox="0 0 20 20">
+                  <div class="w-6 h-6 rounded-full flex items-center justify-center mt-1 flex-shrink-0" style="background-color: #22c55e;">
+                    <svg class="w-4 h-4 text-white" fill="currentColor" viewBox="0 0 20 20">
                       <path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd"></path>
                     </svg>
                   </div>
                   <div class="flex-1">
                     <span class="text-lg text-primary font-medium">
                       Mentoria A Base: um estudo e análise do livro: 7 hábitos das pessoas altamente eficazes com apostila complementar (+200 páginas) - 
-                      <span class="line-through text-gray-500">R$2.497</span>
+                      <span class="line-through" style="color: #ef4444;">R$2.497</span>
                     </span>
                   </div>
                 </div>
                 
                 <div class="flex items-start gap-4">
-                  <div class="w-6 h-6 border-2 border-primary rounded flex items-center justify-center mt-1 flex-shrink-0">
-                    <svg class="w-4 h-4 text-primary" fill="currentColor" viewBox="0 0 20 20">
+                  <div class="w-6 h-6 rounded-full flex items-center justify-center mt-1 flex-shrink-0" style="background-color: #22c55e;">
+                    <svg class="w-4 h-4 text-white" fill="currentColor" viewBox="0 0 20 20">
                       <path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd"></path>
                     </svg>
                   </div>
                   <div class="flex-1">
                     <span class="text-lg text-primary font-medium">
-                      Encontro semanal AO VIVO com Jacob Petry. (Incalculável)
+                      Encontro semanal AO VIVO com Jacob Petry. (<span style="color: #22c55e; font-weight: bold;">Incalculável</span>)
                     </span>
                   </div>
                 </div>
@@ -1335,7 +1326,7 @@ document.querySelector('#app').innerHTML = `
     </section>
     
     <!-- Final Photo Section -->
-    <section class="pt-16 lg:pt-24 bg-white">
+    <section class="pt-24 lg:pt-24 bg-white">
       <div class="container-custom">
         <!-- Guarantee Section -->
         <div class="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8 mb-32">
