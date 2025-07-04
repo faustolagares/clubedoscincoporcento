@@ -169,13 +169,13 @@ document.querySelector('#app').innerHTML = `
     </section>
     
     <!-- White Section with Image -->
-    <section class="py-16 lg:py-24 bg-white">
+    <section class="pt-8 pb-1 lg:pt-12 lg:pb-2 bg-white">
       <div class="container-custom">
         <div class="flex justify-center items-center">
           <img 
             src="https://ucarecdn.com/c7d55c71-efd4-4074-bee2-da7cffd80506/581.png" 
             alt="Imagem ilustrativa"
-            class="max-w-full h-auto animate-fade-in"
+            class="max-w-full lg:max-w-[70%] h-auto animate-fade-in"
           />
         </div>
       </div>
@@ -195,17 +195,14 @@ document.querySelector('#app').innerHTML = `
             <img 
               src="https://ucarecdn.com/b607b551-395c-4320-8cdc-f34476f3561f/VIDADENTRODOCLUBE8.png" 
               alt="Vida dentro do Clube dos 5%"
-              class="w-full max-w-none h-auto animate-fade-in"
+              class="w-4/5 max-w-none h-auto animate-fade-in"
             />
           </div>
           
           <!-- Text Content -->
           <div class="text-center max-w-4xl mx-auto animate-slide-up">
             <h3 class="text-h3-mobile lg:text-h3-desktop font-onest font-normal text-primary mb-6">
-              Não é sobre fazer mais.<br>
-              É sobre ter <strong>clareza absoluta</strong>,<br>
-              <strong>despertar da inconsciência</strong> e<br>
-              <strong>eliminar o sofrimento</strong>.
+              Não é sobre fazer mais. É sobre ter <strong>clareza absoluta</strong>, <strong>despertar da inconsciência</strong> e <strong>eliminar o sofrimento</strong>.
             </h3>
             
             <p class="text-body-mobile lg:text-body-desktop text-primary/80 italic mb-8">
@@ -504,7 +501,7 @@ document.querySelector('#app').innerHTML = `
     </section>
     
     <!-- Testimonials Section -->
-    <section class="py-16 lg:py-24 bg-primary">
+    <section class="testimonials-section py-16 lg:py-24 bg-primary">
       <div class="container-custom px-4 sm:px-6 lg:px-8">
         <div class="text-center max-w-6xl mx-auto">
           <!-- Headline -->
@@ -513,7 +510,7 @@ document.querySelector('#app').innerHTML = `
           </h2>
           
           <!-- Testimonials Cards -->
-          <div class="grid grid-cols-1 md:grid-cols-3 gap-6 lg:gap-8 max-w-6xl mx-auto animate-fade-in">
+          <div class="grid grid-cols-1 md:grid-cols-3 gap-6 lg:gap-8 max-w-6xl mx-auto animate-fade-in mb-16">
             <!-- Testimonial Card 1 -->
             <div class="testimonial-card animate-stagger">
               <img 
@@ -542,276 +539,261 @@ document.querySelector('#app').innerHTML = `
             </div>
           </div>
         </div>
-      </div>
-    </section>
-    
-    <!-- Video and Quote Section -->
-    <section class="py-16 lg:py-24 bg-primary">
-      <div class="container-custom px-4 sm:px-6 lg:px-8">
-        <div class="grid grid-cols-1 lg:grid-cols-2 gap-8 lg:gap-12 items-center max-w-6xl mx-auto">
-          <!-- Video Column -->
-          <div class="order-2 lg:order-1 animate-fade-in">
-            <div class="video-testimonial-container">
-              <video 
-                controls 
-                preload="metadata"
-                poster="https://ucarecdn.com/f4044265-c089-43b3-8789-8aba0e660635/Screenshot20250703at101533PM.png"
-                class="w-full h-auto rounded-lg shadow-strong"
-              >
-                <source src="https://neecplxfgfdludxo.public.blob.vercel-storage.com/Jacob%20Petry/Clube%20dos%205%25/Depoimentos%20em%20Video/DEPOIMENTO_RAFAEL_WHATS-nopSzSG6e0cH9JEIxd6uISKLYP2WiW.mp4" type="video/mp4">
-                Seu navegador não suporta o elemento de vídeo.
-              </video>
+        
+        <!-- Video Testimonials -->
+        <!-- Video and Quote Section - Rafael -->
+        <div class="py-8 lg:py-12">
+          <div class="grid grid-cols-1 lg:grid-cols-2 gap-8 lg:gap-12 items-center max-w-6xl mx-auto">
+            <!-- Video Column -->
+            <div class="order-2 lg:order-1 animate-fade-in">
+              <div class="video-testimonial-container">
+                <video 
+                  controls 
+                  preload="metadata"
+                  poster="https://ucarecdn.com/f4044265-c089-43b3-8789-8aba0e660635/Screenshot20250703at101533PM.png"
+                  class="w-full h-auto rounded-lg shadow-strong"
+                >
+                  <source src="https://neecplxfgfdludxo.public.blob.vercel-storage.com/Jacob%20Petry/Clube%20dos%205%25/Depoimentos%20em%20Video/DEPOIMENTO_RAFAEL_WHATS-nopSzSG6e0cH9JEIxd6uISKLYP2WiW.mp4" type="video/mp4">
+                  Seu navegador não suporta o elemento de vídeo.
+                </video>
+              </div>
             </div>
-          </div>
-          
-          <!-- Quote Column -->
-          <div class="order-1 lg:order-2 flex items-center justify-center animate-slide-up">
-            <div class="text-center lg:text-left">
-              <h3 class="text-h3-mobile lg:text-h3-desktop font-aeonik font-medium text-white leading-tight">
-                "Não é nem transformador,<br>
-                é esclarecedor."
-              </h3>
-              <p class="text-body-mobile lg:text-body-desktop text-white/70 mt-6 italic">
-                — Rafael, membro do Clube dos 5%
-              </p>
-            </div>
-          </div>
-        </div>
-      </div>
-    </section>
-    
-    <!-- Second Video and Quote Section - Irene -->
-    <section class="py-16 lg:py-24 bg-primary">
-      <div class="container-custom px-4 sm:px-6 lg:px-8">
-        <div class="grid grid-cols-1 lg:grid-cols-2 gap-8 lg:gap-12 items-center max-w-6xl mx-auto">
-          <!-- Quote Column -->
-          <div class="order-1 lg:order-1 flex items-center justify-center animate-slide-up">
-            <div class="text-center lg:text-left">
-              <h3 class="text-h3-mobile lg:text-h3-desktop font-aeonik font-medium text-white leading-tight">
-                "Você não pode imaginar o bem que isso me faz, em plenos 73 anos de idade."
-              </h3>
-              <p class="text-body-mobile lg:text-body-desktop text-white/70 mt-6 italic">
-                — Irene, membro do Clube dos 5%
-              </p>
-            </div>
-          </div>
-          
-          <!-- Video Column -->
-          <div class="order-2 lg:order-2 animate-fade-in">
-            <div class="video-testimonial-container">
-              <video 
-                controls 
-                preload="metadata"
-                poster="https://ucarecdn.com/e7138f43-1cb1-4694-822b-8bc5478d44e5/Screenshot20250703at101548PM.png"
-                class="w-full h-auto rounded-lg shadow-strong"
-              >
-                <source src="https://neecplxfgfdludxo.public.blob.vercel-storage.com/Jacob%20Petry/Clube%20dos%205%25/Depoimentos%20em%20Video/DEPOIMENTO_IRENE_WHATS-VpEcooSZw1Bd7kCnldFExleb1MpfTp.mp4" type="video/mp4">
-                Seu navegador não suporta o elemento de vídeo.
-              </video>
+            
+            <!-- Quote Column -->
+            <div class="order-1 lg:order-2 flex items-center justify-center animate-slide-up">
+              <div class="text-center lg:text-left">
+                <h3 class="text-h3-mobile lg:text-h3-desktop font-aeonik font-medium text-white leading-tight">
+                  "Não é nem transformador,<br>
+                  é esclarecedor."
+                </h3>
+                <p class="text-body-mobile lg:text-body-desktop text-accent mt-6 italic">
+                  — Rafael, membro do Clube dos 5%
+                </p>
+              </div>
             </div>
           </div>
         </div>
-      </div>
-    </section>
-    
-    <!-- Third Video and Quote Section - Patrícia -->
-    <section class="py-16 lg:py-24 bg-primary">
-      <div class="container-custom px-4 sm:px-6 lg:px-8">
-        <div class="grid grid-cols-1 lg:grid-cols-2 gap-8 lg:gap-12 items-center max-w-6xl mx-auto">
-          <!-- Video Column -->
-          <div class="order-2 lg:order-1 animate-fade-in">
-            <div class="video-testimonial-container">
-              <video 
-                controls 
-                preload="metadata"
-                poster="https://ucarecdn.com/8fcc2449-8712-428e-83c9-da10b9eeee99/Screenshot20250703at101558PM.png"
-                class="w-full h-auto rounded-lg shadow-strong"
-              >
-                <source src="https://neecplxfgfdludxo.public.blob.vercel-storage.com/Jacob%20Petry/Clube%20dos%205%25/Depoimentos%20em%20Video/DEPOIMENTO_PATRICIA_WHATS-Gn77IfIwai5tfQegzrRqz1fwNlcKvm.mp4" type="video/mp4">
-                Seu navegador não suporta o elemento de vídeo.
-              </video>
+        
+        <!-- Video and Quote Section - Irene -->
+        <div class="py-8 lg:py-12">
+          <div class="grid grid-cols-1 lg:grid-cols-2 gap-8 lg:gap-12 items-center max-w-6xl mx-auto">
+            <!-- Quote Column -->
+            <div class="order-1 lg:order-1 flex items-center justify-center animate-slide-up">
+              <div class="text-center lg:text-left">
+                <h3 class="text-h3-mobile lg:text-h3-desktop font-aeonik font-medium text-white leading-tight">
+                  "Você não pode imaginar o bem que isso me faz, em plenos 73 anos de idade."
+                </h3>
+                <p class="text-body-mobile lg:text-body-desktop text-accent mt-6 italic">
+                  — Irene, membro do Clube dos 5%
+                </p>
+              </div>
             </div>
-          </div>
-          
-          <!-- Quote Column -->
-          <div class="order-1 lg:order-2 flex items-center justify-center animate-slide-up">
-            <div class="text-center lg:text-left">
-              <h3 class="text-h3-mobile lg:text-h3-desktop font-aeonik font-medium text-white leading-tight">
-                "O Clube dos 5% foi um divisor de águas na minha vida"
-              </h3>
-              <p class="text-body-mobile lg:text-body-desktop text-white/70 mt-6 italic">
-                — Patrícia, membro do Clube dos 5%
-              </p>
-            </div>
-          </div>
-        </div>
-      </div>
-    </section>
-    
-    <!-- Fourth Video and Quote Section - Matheus -->
-    <section class="py-16 lg:py-24 bg-primary">
-      <div class="container-custom px-4 sm:px-6 lg:px-8">
-        <div class="grid grid-cols-1 lg:grid-cols-2 gap-8 lg:gap-12 items-center max-w-6xl mx-auto">
-          <!-- Quote Column -->
-          <div class="order-1 lg:order-1 flex items-center justify-center animate-slide-up">
-            <div class="text-center lg:text-left">
-              <h3 class="text-h3-mobile lg:text-h3-desktop font-aeonik font-medium text-white leading-tight">
-                "Não existe nada igual no mercado hoje."
-              </h3>
-              <p class="text-body-mobile lg:text-body-desktop text-white/70 mt-6 italic">
-                — Matheus, membro do Clube dos 5%
-              </p>
-            </div>
-          </div>
-          
-          <!-- Video Column -->
-          <div class="order-2 lg:order-2 animate-fade-in">
-            <div class="video-testimonial-container">
-              <video 
-                controls 
-                preload="metadata"
-                poster="https://ucarecdn.com/14c13dc1-b63f-4f83-a6db-4218c4d3aa12/Screenshot20250703at101607PM.png"
-                class="w-full h-auto rounded-lg shadow-strong"
-              >
-                <source src="https://neecplxfgfdludxo.public.blob.vercel-storage.com/Jacob%20Petry/Clube%20dos%205%25/Depoimentos%20em%20Video/DEPOIMENTO_MATHEUS_WHATS-oJJIeUMK69i3ZdMVr9iuZg7N2YRPUf.mp4" type="video/mp4">
-                Seu navegador não suporta o elemento de vídeo.
-              </video>
+            
+            <!-- Video Column -->
+            <div class="order-2 lg:order-2 animate-fade-in">
+              <div class="video-testimonial-container">
+                <video 
+                  controls 
+                  preload="metadata"
+                  poster="https://ucarecdn.com/e7138f43-1cb1-4694-822b-8bc5478d44e5/Screenshot20250703at101548PM.png"
+                  class="w-full h-auto rounded-lg shadow-strong"
+                >
+                  <source src="https://neecplxfgfdludxo.public.blob.vercel-storage.com/Jacob%20Petry/Clube%20dos%205%25/Depoimentos%20em%20Video/DEPOIMENTO_IRENE_WHATS-VpEcooSZw1Bd7kCnldFExleb1MpfTp.mp4" type="video/mp4">
+                  Seu navegador não suporta o elemento de vídeo.
+                </video>
+              </div>
             </div>
           </div>
         </div>
-      </div>
-    </section>
-    
-    <!-- Fifth Video and Quote Section - Hilda -->
-    <section class="py-16 lg:py-24 bg-primary">
-      <div class="container-custom px-4 sm:px-6 lg:px-8">
-        <div class="grid grid-cols-1 lg:grid-cols-2 gap-8 lg:gap-12 items-center max-w-6xl mx-auto">
-          <!-- Video Column -->
-          <div class="order-2 lg:order-1 animate-fade-in">
-            <div class="video-testimonial-container">
-              <video 
-                controls 
-                preload="metadata"
-                poster="https://ucarecdn.com/9c668b10-f1ee-4fa7-9646-272ac62400a9/Screenshot20250703at101614PM.png"
-                class="w-full h-auto rounded-lg shadow-strong"
-              >
-                <source src="https://neecplxfgfdludxo.public.blob.vercel-storage.com/Jacob%20Petry/Clube%20dos%205%25/Depoimentos%20em%20Video/DEPOIMENTO_HILDA_WHATS-2SIkMK1XVffeexFEzmDOFIi1fGpTNX.mp4" type="video/mp4">
-                Seu navegador não suporta o elemento de vídeo.
-              </video>
+        
+        <!-- Video and Quote Section - Patrícia -->
+        <div class="py-8 lg:py-12">
+          <div class="grid grid-cols-1 lg:grid-cols-2 gap-8 lg:gap-12 items-center max-w-6xl mx-auto">
+            <!-- Video Column -->
+            <div class="order-2 lg:order-1 animate-fade-in">
+              <div class="video-testimonial-container">
+                <video 
+                  controls 
+                  preload="metadata"
+                  poster="https://ucarecdn.com/8fcc2449-8712-428e-83c9-da10b9eeee99/Screenshot20250703at101558PM.png"
+                  class="w-full h-auto rounded-lg shadow-strong"
+                >
+                  <source src="https://neecplxfgfdludxo.public.blob.vercel-storage.com/Jacob%20Petry/Clube%20dos%205%25/Depoimentos%20em%20Video/DEPOIMENTO_PATRICIA_WHATS-Gn77IfIwai5tfQegzrRqz1fwNlcKvm.mp4" type="video/mp4">
+                  Seu navegador não suporta o elemento de vídeo.
+                </video>
+              </div>
             </div>
-          </div>
-          
-          <!-- Quote Column -->
-          <div class="order-1 lg:order-2 flex items-center justify-center animate-slide-up">
-            <div class="text-center lg:text-left">
-              <h3 class="text-h3-mobile lg:text-h3-desktop font-aeonik font-medium text-white leading-tight">
-                "Eu me achava insuficiente e pequena, agora comecei a me enxergar como eu sou."
-              </h3>
-              <p class="text-body-mobile lg:text-body-desktop text-white/70 mt-6 italic">
-                — Hilda, membro do Clube dos 5%
-              </p>
-            </div>
-          </div>
-        </div>
-      </div>
-    </section>
-    
-    <!-- Sixth Video and Quote Section - Eduardo -->
-    <section class="py-16 lg:py-24 bg-primary">
-      <div class="container-custom px-4 sm:px-6 lg:px-8">
-        <div class="grid grid-cols-1 lg:grid-cols-2 gap-8 lg:gap-12 items-center max-w-6xl mx-auto">
-          <!-- Quote Column -->
-          <div class="order-1 lg:order-1 flex items-center justify-center animate-slide-up">
-            <div class="text-center lg:text-left">
-              <h3 class="text-h3-mobile lg:text-h3-desktop font-aeonik font-medium text-white leading-tight">
-                "Eu vivia dentro de um falso-eu e nem tinha percebido. Depois do Clube dos 5%, é uma evolução constante."
-              </h3>
-              <p class="text-body-mobile lg:text-body-desktop text-white/70 mt-6 italic">
-                — Eduardo, membro do Clube dos 5%
-              </p>
-            </div>
-          </div>
-          
-          <!-- Video Column -->
-          <div class="order-2 lg:order-2 animate-fade-in">
-            <div class="video-testimonial-container">
-              <video 
-                controls 
-                preload="metadata"
-                poster="https://ucarecdn.com/56aef7ae-1827-425c-a3c8-731103d3a472/Screenshot20250703at101621PM.png"
-                class="w-full h-auto rounded-lg shadow-strong"
-              >
-                <source src="https://neecplxfgfdludxo.public.blob.vercel-storage.com/Jacob%20Petry/Clube%20dos%205%25/Depoimentos%20em%20Video/DEPOIMENTO_EDUARDO_WHATS-GK5xcrWUtK8j9yrRdchjzZ21tuUSX2.mp4" type="video/mp4">
-                Seu navegador não suporta o elemento de vídeo.
-              </video>
+            
+            <!-- Quote Column -->
+            <div class="order-1 lg:order-2 flex items-center justify-center animate-slide-up">
+              <div class="text-center lg:text-left">
+                <h3 class="text-h3-mobile lg:text-h3-desktop font-aeonik font-medium text-white leading-tight">
+                  "O Clube dos 5% foi um divisor de águas na minha vida"
+                </h3>
+                <p class="text-body-mobile lg:text-body-desktop text-accent mt-6 italic">
+                  — Patrícia, membro do Clube dos 5%
+                </p>
+              </div>
             </div>
           </div>
         </div>
-      </div>
-    </section>
-    
-    <!-- Seventh Video and Quote Section - Amanda -->
-    <section class="py-16 lg:py-24 bg-primary">
-      <div class="container-custom px-4 sm:px-6 lg:px-8">
-        <div class="grid grid-cols-1 lg:grid-cols-2 gap-8 lg:gap-12 items-center max-w-6xl mx-auto">
-          <!-- Video Column -->
-          <div class="order-2 lg:order-1 animate-fade-in">
-            <div class="video-testimonial-container">
-              <video 
-                controls 
-                preload="metadata"
-                poster="https://ucarecdn.com/53dcf4ab-cafc-4095-8f06-95d7808c988b/Screenshot20250703at101628PM.png"
-                class="w-full h-auto rounded-lg shadow-strong"
-              >
-                <source src="https://neecplxfgfdludxo.public.blob.vercel-storage.com/Jacob%20Petry/Clube%20dos%205%25/Depoimentos%20em%20Video/DEPOIMENTO_AMANDA_WHATS-KqZ1hHxwOAKc7ldOIVYrnoIRHeDFU7.mp4" type="video/mp4">
-                Seu navegador não suporta o elemento de vídeo.
-              </video>
+        
+        <!-- Video and Quote Section - Matheus -->
+        <div class="py-8 lg:py-12">
+          <div class="grid grid-cols-1 lg:grid-cols-2 gap-8 lg:gap-12 items-center max-w-6xl mx-auto">
+            <!-- Quote Column -->
+            <div class="order-1 lg:order-1 flex items-center justify-center animate-slide-up">
+              <div class="text-center lg:text-left">
+                <h3 class="text-h3-mobile lg:text-h3-desktop font-aeonik font-medium text-white leading-tight">
+                  "Não existe nada igual no mercado hoje."
+                </h3>
+                <p class="text-body-mobile lg:text-body-desktop text-accent mt-6 italic">
+                  — Matheus, membro do Clube dos 5%
+                </p>
+              </div>
             </div>
-          </div>
-          
-          <!-- Quote Column -->
-          <div class="order-1 lg:order-2 flex items-center justify-center animate-slide-up">
-            <div class="text-center lg:text-left">
-              <h3 class="text-h3-mobile lg:text-h3-desktop font-aeonik font-medium text-white leading-tight">
-                "Antes eu vivia presa do medo e frustração. Hoje consigo me centrar no agora. A palavra chave do Clube dos 5% é transformação pessoal."
-              </h3>
-              <p class="text-body-mobile lg:text-body-desktop text-white/70 mt-6 italic">
-                — Amanda, membro do Clube dos 5%
-              </p>
+            
+            <!-- Video Column -->
+            <div class="order-2 lg:order-2 animate-fade-in">
+              <div class="video-testimonial-container">
+                <video 
+                  controls 
+                  preload="metadata"
+                  poster="https://ucarecdn.com/14c13dc1-b63f-4f83-a6db-4218c4d3aa12/Screenshot20250703at101607PM.png"
+                  class="w-full h-auto rounded-lg shadow-strong"
+                >
+                  <source src="https://neecplxfgfdludxo.public.blob.vercel-storage.com/Jacob%20Petry/Clube%20dos%205%25/Depoimentos%20em%20Video/DEPOIMENTO_MATHEUS_WHATS-oJJIeUMK69i3ZdMVr9iuZg7N2YRPUf.mp4" type="video/mp4">
+                  Seu navegador não suporta o elemento de vídeo.
+                </video>
+              </div>
             </div>
           </div>
         </div>
-      </div>
-    </section>
-    
-    <!-- Eighth Video and Quote Section - Luerde -->
-    <section class="py-16 lg:py-24 bg-primary">
-      <div class="container-custom px-4 sm:px-6 lg:px-8">
-        <div class="grid grid-cols-1 lg:grid-cols-2 gap-8 lg:gap-12 items-center max-w-6xl mx-auto">
-          <!-- Quote Column -->
-          <div class="order-1 lg:order-1 flex items-center justify-center animate-slide-up">
-            <div class="text-center lg:text-left">
-              <h3 class="text-h3-mobile lg:text-h3-desktop font-aeonik font-medium text-white leading-tight">
-                "Sem o Clube, eu era uma pessoa frágil."
-              </h3>
-              <p class="text-body-mobile lg:text-body-desktop text-white/70 mt-6 italic">
-                — Luerde, membro do Clube dos 5%
-              </p>
+        
+        <!-- Video and Quote Section - Hilda -->
+        <div class="py-8 lg:py-12">
+          <div class="grid grid-cols-1 lg:grid-cols-2 gap-8 lg:gap-12 items-center max-w-6xl mx-auto">
+            <!-- Video Column -->
+            <div class="order-2 lg:order-1 animate-fade-in">
+              <div class="video-testimonial-container">
+                <video 
+                  controls 
+                  preload="metadata"
+                  poster="https://ucarecdn.com/9c668b10-f1ee-4fa7-9646-272ac62400a9/Screenshot20250703at101614PM.png"
+                  class="w-full h-auto rounded-lg shadow-strong"
+                >
+                  <source src="https://neecplxfgfdludxo.public.blob.vercel-storage.com/Jacob%20Petry/Clube%20dos%205%25/Depoimentos%20em%20Video/DEPOIMENTO_HILDA_WHATS-2SIkMK1XVffeexFEzmDOFIi1fGpTNX.mp4" type="video/mp4">
+                  Seu navegador não suporta o elemento de vídeo.
+                </video>
+              </div>
+            </div>
+            
+            <!-- Quote Column -->
+            <div class="order-1 lg:order-2 flex items-center justify-center animate-slide-up">
+              <div class="text-center lg:text-left">
+                <h3 class="text-h3-mobile lg:text-h3-desktop font-aeonik font-medium text-white leading-tight">
+                  "Eu me achava insuficiente e pequena, agora comecei a me enxergar como eu sou."
+                </h3>
+                <p class="text-body-mobile lg:text-body-desktop text-accent mt-6 italic">
+                  — Hilda, membro do Clube dos 5%
+                </p>
+              </div>
             </div>
           </div>
-          
-          <!-- Video Column -->
-          <div class="order-2 lg:order-2 animate-fade-in">
-            <div class="video-testimonial-container">
-              <video 
-                controls 
-                preload="metadata"
-                poster="https://ucarecdn.com/89a7d1c0-c70a-4081-b534-a2c4950dca7c/Screenshot20250703at101638PM.png"
-                class="w-full h-auto rounded-lg shadow-strong"
-              >
-                <source src="https://neecplxfgfdludxo.public.blob.vercel-storage.com/Jacob%20Petry/Clube%20dos%205%25/Depoimentos%20em%20Video/DEPOIMENTO_LUERDE_WHATS-WwOpqDFLZEoxzM8s7RCses4OjW3F1o.mp4" type="video/mp4">
-                Seu navegador não suporta o elemento de vídeo.
-              </video>
+        </div>
+        
+        <!-- Video and Quote Section - Eduardo -->
+        <div class="py-8 lg:py-12">
+          <div class="grid grid-cols-1 lg:grid-cols-2 gap-8 lg:gap-12 items-center max-w-6xl mx-auto">
+            <!-- Quote Column -->
+            <div class="order-1 lg:order-1 flex items-center justify-center animate-slide-up">
+              <div class="text-center lg:text-left">
+                <h3 class="text-h3-mobile lg:text-h3-desktop font-aeonik font-medium text-white leading-tight">
+                  "Eu vivia dentro de um falso-eu e nem tinha percebido. Depois do Clube dos 5%, é uma evolução constante."
+                </h3>
+                <p class="text-body-mobile lg:text-body-desktop text-accent mt-6 italic">
+                  — Eduardo, membro do Clube dos 5%
+                </p>
+              </div>
+            </div>
+            
+            <!-- Video Column -->
+            <div class="order-2 lg:order-2 animate-fade-in">
+              <div class="video-testimonial-container">
+                <video 
+                  controls 
+                  preload="metadata"
+                  poster="https://ucarecdn.com/56aef7ae-1827-425c-a3c8-731103d3a472/Screenshot20250703at101621PM.png"
+                  class="w-full h-auto rounded-lg shadow-strong"
+                >
+                  <source src="https://neecplxfgfdludxo.public.blob.vercel-storage.com/Jacob%20Petry/Clube%20dos%205%25/Depoimentos%20em%20Video/DEPOIMENTO_EDUARDO_WHATS-GK5xcrWUtK8j9yrRdchjzZ21tuUSX2.mp4" type="video/mp4">
+                  Seu navegador não suporta o elemento de vídeo.
+                </video>
+              </div>
+            </div>
+          </div>
+        </div>
+        
+        <!-- Video and Quote Section - Amanda -->
+        <div class="py-8 lg:py-12">
+          <div class="grid grid-cols-1 lg:grid-cols-2 gap-8 lg:gap-12 items-center max-w-6xl mx-auto">
+            <!-- Video Column -->
+            <div class="order-2 lg:order-1 animate-fade-in">
+              <div class="video-testimonial-container">
+                <video 
+                  controls 
+                  preload="metadata"
+                  poster="https://ucarecdn.com/53dcf4ab-cafc-4095-8f06-95d7808c988b/Screenshot20250703at101628PM.png"
+                  class="w-full h-auto rounded-lg shadow-strong"
+                >
+                  <source src="https://neecplxfgfdludxo.public.blob.vercel-storage.com/Jacob%20Petry/Clube%20dos%205%25/Depoimentos%20em%20Video/DEPOIMENTO_AMANDA_WHATS-KqZ1hHxwOAKc7ldOIVYrnoIRHeDFU7.mp4" type="video/mp4">
+                  Seu navegador não suporta o elemento de vídeo.
+                </video>
+              </div>
+            </div>
+            
+            <!-- Quote Column -->
+            <div class="order-1 lg:order-2 flex items-center justify-center animate-slide-up">
+              <div class="text-center lg:text-left">
+                <h3 class="text-h3-mobile lg:text-h3-desktop font-aeonik font-medium text-white leading-tight">
+                  "Antes eu vivia presa do medo e frustração. Hoje consigo me centrar no agora. A palavra chave do Clube dos 5% é transformação pessoal."
+                </h3>
+                <p class="text-body-mobile lg:text-body-desktop text-accent mt-6 italic">
+                  — Amanda, membro do Clube dos 5%
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+        
+        <!-- Video and Quote Section - Luerde -->
+        <div class="py-8 lg:py-12">
+          <div class="grid grid-cols-1 lg:grid-cols-2 gap-8 lg:gap-12 items-center max-w-6xl mx-auto">
+            <!-- Quote Column -->
+            <div class="order-1 lg:order-1 flex items-center justify-center animate-slide-up">
+              <div class="text-center lg:text-left">
+                <h3 class="text-h3-mobile lg:text-h3-desktop font-aeonik font-medium text-white leading-tight">
+                  "Sem o Clube, eu era uma pessoa frágil."
+                </h3>
+                <p class="text-body-mobile lg:text-body-desktop text-accent mt-6 italic">
+                  — Luerde, membro do Clube dos 5%
+                </p>
+              </div>
+            </div>
+            
+            <!-- Video Column -->
+            <div class="order-2 lg:order-2 animate-fade-in">
+              <div class="video-testimonial-container">
+                <video 
+                  controls 
+                  preload="metadata"
+                  poster="https://ucarecdn.com/89a7d1c0-c70a-4081-b534-a2c4950dca7c/Screenshot20250703at101638PM.png"
+                  class="w-full h-auto rounded-lg shadow-strong"
+                >
+                  <source src="https://neecplxfgfdludxo.public.blob.vercel-storage.com/Jacob%20Petry/Clube%20dos%205%25/Depoimentos%20em%20Video/DEPOIMENTO_LUERDE_WHATS-WwOpqDFLZEoxzM8s7RCses4OjW3F1o.mp4" type="video/mp4">
+                  Seu navegador não suporta o elemento de vídeo.
+                </video>
+              </div>
             </div>
           </div>
         </div>
@@ -819,7 +801,7 @@ document.querySelector('#app').innerHTML = `
     </section>
     
     <!-- Explicação do Produto Section -->
-    <section class="py-16 lg:py-24 bg-white">
+    <section class="py-16 lg:py-24 bg-primary">
       <div class="container-custom px-4 sm:px-6 lg:px-8">
         <div class="text-center max-w-4xl mx-auto">
           <!-- Main Headline -->
@@ -833,7 +815,7 @@ document.querySelector('#app').innerHTML = `
               />
             </div>
             <!-- Headline Text -->
-            <h2 class="text-h2-mobile lg:text-h2-desktop font-aeonik font-medium text-primary">
+            <h2 class="text-h2-mobile lg:text-h2-desktop font-aeonik font-medium text-white">
             Um guia completo — e prático<br>
             para o seu desenvolvimento
             </h2>
@@ -845,38 +827,83 @@ document.querySelector('#app').innerHTML = `
             </p>
           
           <!-- Intro Text -->
-          <p class="text-body-mobile lg:text-body-desktop text-primary mb-12 animate-slide-up">
+          <p class="text-body-mobile lg:text-body-desktop text-white mb-12 animate-slide-up">
             Escolha a trilha que você quer seguir:
           </p>
+          
+          <!-- Cards Carousel -->
+          <div class="card-carousel-container mb-16">
+            <div class="carousel-track" id="carouselTrack">
+              <div class="carousel-card">
+                <img src="https://ucarecdn.com/b0ca1467-209c-4475-9c35-e5826c7624c8/1libertacao.png" alt="Libertação" />
+              </div>
+              <div class="carousel-card">
+                <img src="https://ucarecdn.com/43417f1c-5cd3-498f-8a6f-f918ecf58ea7/2linguagensdoamor.png" alt="Linguagens do Amor" />
+              </div>
+              <div class="carousel-card">
+                <img src="https://ucarecdn.com/32425c4d-b5ed-4627-a3db-c82e466c574c/3novarealidade.png" alt="Nova Realidade" />
+              </div>
+              <div class="carousel-card">
+                <img src="https://ucarecdn.com/e4520944-7cb2-4e8a-b8f2-57757636d934/4despertar.png" alt="Despertar" />
+              </div>
+              <div class="carousel-card">
+                <img src="https://ucarecdn.com/f0f974d7-063b-4de3-a10a-855ec45d599c/5ensinamentosdejesus.png" alt="Ensinamentos de Jesus" />
+              </div>
+              <div class="carousel-card">
+                <img src="https://ucarecdn.com/7cdb34cf-b6ab-40be-9ff5-2236d120bb54/6autoconhecimento.png" alt="Autoconhecimento" />
+              </div>
+              <div class="carousel-card">
+                <img src="https://ucarecdn.com/1c541835-57b1-41a6-b0e6-add9ed3c620c/7talento.png" alt="Talento" />
+              </div>
+              <div class="carousel-card">
+                <img src="https://ucarecdn.com/f48b667b-593b-47fc-9614-78ce289a32c8/8estadodepresenca.png" alt="Estado de Presença" />
+              </div>
+              <div class="carousel-card">
+                <img src="https://ucarecdn.com/b912ad1a-c2b6-4ea3-aefc-a19ac09ac9d1/9aceitacao.png" alt="Aceitação" />
+              </div>
+              <div class="carousel-card">
+                <img src="https://ucarecdn.com/24be6b6b-8fbe-4224-977e-ed60e19d865b/10criacaoconsciente.png" alt="Criação Consciente" />
+              </div>
+              <div class="carousel-card">
+                <img src="https://ucarecdn.com/1ad01aec-ff8e-41fc-8d67-086554b173e6/11propositodevida.png" alt="Propósito de Vida" />
+              </div>
+              <div class="carousel-card">
+                <img src="https://ucarecdn.com/9c261247-30df-42bd-852f-592c6ff32a80/12inteligenciaemocional.png" alt="Inteligência Emocional" />
+              </div>
+              <div class="carousel-card">
+                <img src="https://ucarecdn.com/f6c45ed9-8d25-40bb-9368-d0d811bcd67d/13abase.png" alt="A Base" />
+              </div>
+            </div>
+          </div>
           
           <!-- Trilhas Image -->
           <div class="flex justify-center items-center mb-16 animate-fade-in">
             <img 
-              src="https://ucarecdn.com/5b28255a-b494-4928-9aa0-a74bf81d9894/trilhas.png" 
+              src="https://ucarecdn.com/95eefd1f-612a-4866-89f0-c331f781017f/trilhasblack.png" 
               alt="Trilhas de estudos do Clube dos 5%"
-              class="w-full max-w-4xl h-auto"
+              class="w-full max-w-2xl h-auto"
             />
           </div>
           
           <!-- H4 Heading -->
-          <h4 class="text-h4-mobile lg:text-h4-desktop font-aeonik font-medium text-primary mb-12 animate-slide-up">
+          <h4 class="text-h4-mobile lg:text-h4-desktop font-aeonik font-medium text-white mb-12 animate-slide-up">
             Não é só mais um curso. Não é só conteúdo.<br>
             É um processo estruturado, cíclico e contínuo.
           </h4>
           
           <!-- H3 Heading -->
-          <h3 class="text-h3-mobile lg:text-h3-desktop font-aeonik font-medium text-primary mb-6 animate-slide-up">
+          <h3 class="text-h3-mobile lg:text-h3-desktop font-aeonik font-medium text-white mb-6 animate-slide-up">
             Além das 12 trilhas de estudos…
           </h3>
           
           <!-- H5 Heading with emoji -->
-          <h5 class="text-h5-mobile lg:text-h5-desktop text-primary mb-12 animate-slide-up">
+          <h5 class="text-h5-mobile lg:text-h5-desktop text-red-600 mb-12 animate-slide-up">
             📍 Você tem um encontro marcado com Jacob Petry,<br>
             toda segunda-feira, às 20h.
           </h5>
           
           <!-- Brilhar Text -->
-          <p class="text-body-mobile lg:text-body-desktop text-primary mb-8 animate-slide-up">
+          <p class="text-body-mobile lg:text-body-desktop text-white mb-8 animate-slide-up">
             Aqui você brilha mais.
           </p>
           
@@ -896,8 +923,8 @@ document.querySelector('#app').innerHTML = `
         <div class="text-center max-w-6xl mx-auto">
           <!-- Headline -->
           <h2 class="text-h2-mobile lg:text-h2-desktop font-aeonik font-medium text-white mb-16 animate-slide-up">
-            Entenda melhor sua jornada<br>
-            dentro do Clube dos 5%
+            <span class="hidden lg:inline">Entenda melhor sua jornada<br>dentro do Clube dos 5%</span>
+            <span class="lg:hidden">Entenda melhor sua<br>jornada dentro do<br>Clube dos 5%</span>
           </h2>
           
           <!-- Journey Diagram -->
@@ -959,7 +986,7 @@ document.querySelector('#app').innerHTML = `
       <div class="container-custom px-4 sm:px-6 lg:px-8">
         <div class="text-center max-w-6xl mx-auto">
           <!-- Main Headline -->
-          <h2 class="text-h2-mobile lg:text-h2-desktop font-aeonik font-medium text-primary mb-16 animate-slide-up">
+          <h2 class="text-h2-mobile lg:text-h2-desktop font-aeonik font-medium text-primary mb-16 animate-slide-up leading-tight">
             É hora de saber<br>
             tudo o que você vai levar
           </h2>
@@ -967,7 +994,10 @@ document.querySelector('#app').innerHTML = `
           <!-- Benefits Grid -->
           <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6 lg:gap-8 mb-16 animate-fade-in">
             <!-- Benefit 1 -->
-            <div class="feature-card">
+            <div class="benefit-card">
+              <div class="benefit-icon">
+                <img src="https://ucarecdn.com/362ee62e-230c-4ca7-8e61-951122fbc8c3/1anodeacesso.png" alt="Ícone 1 ano de acesso" class="w-full h-full object-contain">
+              </div>
               <h3 class="text-h4-mobile lg:text-h4-desktop font-aeonik font-medium text-white mb-4">
                 1 ano de acesso<br>
                 integral ao Clube<br>
@@ -976,7 +1006,10 @@ document.querySelector('#app').innerHTML = `
             </div>
             
             <!-- Benefit 2 -->
-            <div class="feature-card">
+            <div class="benefit-card">
+              <div class="benefit-icon">
+                <img src="https://ucarecdn.com/899bbe0f-c169-46b2-9c2e-95c3b20533de/materialcomplementar.png" alt="Ícone material complementar" class="w-full h-full object-contain">
+              </div>
               <h3 class="text-h4-mobile lg:text-h4-desktop font-aeonik font-medium text-white mb-4">
                 Material<br>
                 complementar<br>
@@ -987,7 +1020,10 @@ document.querySelector('#app').innerHTML = `
             </div>
             
             <!-- Benefit 3 -->
-            <div class="feature-card">
+            <div class="benefit-card">
+              <div class="benefit-icon">
+                <img src="https://ucarecdn.com/75396a16-33b3-4794-a169-569cb42e89c7/suportetecnico.png" alt="Ícone suporte técnico" class="w-full h-full object-contain">
+              </div>
               <h3 class="text-h4-mobile lg:text-h4-desktop font-aeonik font-medium text-white mb-4">
                 Acompanhamento<br>
                 e suporte técnico.
@@ -995,7 +1031,10 @@ document.querySelector('#app').innerHTML = `
             </div>
             
             <!-- Benefit 4 -->
-            <div class="feature-card">
+            <div class="benefit-card">
+              <div class="benefit-icon">
+                <img src="https://ucarecdn.com/605e2cb0-2af7-4ea4-ac2d-e48db1aa2402/12ciclosdeestudo.png" alt="Ícone 12 ciclos de estudo" class="w-full h-full object-contain">
+              </div>
               <h3 class="text-h4-mobile lg:text-h4-desktop font-aeonik font-medium text-white mb-4">
                 12 ciclos de estudos<br>
                 prontos para você<br>
@@ -1028,7 +1067,7 @@ document.querySelector('#app').innerHTML = `
           <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-4 animate-fade-in">
             <!-- Book 1 -->
             <div class="bg-white border border-gray-200 rounded p-6 transition-all duration-300 hover:border-accent">
-              <img src="https://ucarecdn.com/d9ceb922-7219-4166-a1ec-149f8a60b2bd/oobvioqueignoramos.PNG" alt="Capa do livro O óbvio que ignoramos" class="w-full h-auto rounded-lg mb-4">
+              <img src="https://ucarecdn.com/d9ceb922-7219-4166-a1ec-149f8a60b2bd/oobvioqueignoramos.PNG" alt="Capa do livro O óbvio que ignoramos" class="w-full h-auto rounded-lg mb-4 book-cover-img">
               <h4 class="text-h5-mobile lg:text-h5-desktop font-aeonik font-medium text-primary mb-3 text-center">
                 O óbvio de<br>
                 ignoramos
@@ -1040,7 +1079,7 @@ document.querySelector('#app').innerHTML = `
             
             <!-- Book 2 -->
             <div class="bg-white border border-gray-200 rounded p-6 transition-all duration-300 hover:border-accent">
-              <img src="https://ucarecdn.com/9d5cc392-e858-4f7e-a55b-b3b0578a3a80/poderemanipulacao.PNG" alt="Capa do livro Poder e Manipulação" class="w-full h-auto rounded-lg mb-4">
+              <img src="https://ucarecdn.com/9d5cc392-e858-4f7e-a55b-b3b0578a3a80/poderemanipulacao.PNG" alt="Capa do livro Poder e Manipulação" class="w-full h-auto rounded-lg mb-4 book-cover-img">
               <h4 class="text-h5-mobile lg:text-h5-desktop font-aeonik font-medium text-primary mb-3 text-center">
                 Poder e<br>
                 Manipulação
@@ -1052,7 +1091,7 @@ document.querySelector('#app').innerHTML = `
             
             <!-- Book 3 -->
             <div class="bg-white border border-gray-200 rounded p-6 transition-all duration-300 hover:border-accent">
-              <img src="https://ucarecdn.com/9b1834ce-b9ff-44a7-b158-df26e3bdf218/as16leisdosucesso.PNG" alt="Capa do livro As 16 leis do sucesso" class="w-full h-auto rounded-lg mb-4">
+              <img src="https://ucarecdn.com/9b1834ce-b9ff-44a7-b158-df26e3bdf218/as16leisdosucesso.PNG" alt="Capa do livro As 16 leis do sucesso" class="w-full h-auto rounded-lg mb-4 book-cover-img">
               <h4 class="text-h5-mobile lg:text-h5-desktop font-aeonik font-medium text-primary mb-3 text-center">
                 As 16 leis do<br>
                 sucesso
@@ -1064,7 +1103,7 @@ document.querySelector('#app').innerHTML = `
             
             <!-- Book 4 -->
             <div class="bg-white border border-gray-200 rounded p-6 transition-all duration-300 hover:border-accent">
-              <img src="https://ucarecdn.com/dcb33644-5cba-4628-b589-9926cd56eb39/sejasingular.PNG" alt="Capa do livro Seja Singular" class="w-full h-auto rounded-lg mb-4">
+              <img src="https://ucarecdn.com/dcb33644-5cba-4628-b589-9926cd56eb39/sejasingular.PNG" alt="Capa do livro Seja Singular" class="w-full h-auto rounded-lg mb-4 book-cover-img">
               <h4 class="text-h5-mobile lg:text-h5-desktop font-aeonik font-medium text-primary mb-3 text-center">
                 Seja Singular: as incríveis vantagens de ser diferente
               </h4>
@@ -1535,6 +1574,109 @@ document.querySelectorAll('a[href^="#"]').forEach(anchor => {
   });
 });
 
+// Cards Carousel Functionality
+function initializeCarousel() {
+  const carouselTrack = document.getElementById('carouselTrack');
+  const carouselContainer = document.querySelector('.card-carousel-container');
+  
+  if (!carouselTrack || !carouselContainer) return;
+  
+  // Clone cards for infinite loop
+  const originalCards = carouselTrack.innerHTML;
+  carouselTrack.innerHTML = originalCards + originalCards; // Duplicate for seamless loop
+  
+  let isDragging = false;
+  let startX = 0;
+  let scrollLeft = 0;
+  let animationPaused = false;
+  
+  // Pause animation on hover
+  carouselContainer.addEventListener('mouseenter', () => {
+    carouselTrack.classList.add('paused');
+    animationPaused = true;
+  });
+  
+  // Resume animation on mouse leave
+  carouselContainer.addEventListener('mouseleave', () => {
+    if (!isDragging) {
+      carouselTrack.classList.remove('paused');
+      animationPaused = false;
+    }
+  });
+  
+  // Mouse drag functionality
+  carouselContainer.addEventListener('mousedown', (e) => {
+    isDragging = true;
+    carouselTrack.classList.add('paused');
+    startX = e.pageX - carouselContainer.offsetLeft;
+    scrollLeft = carouselContainer.scrollLeft;
+    carouselContainer.style.cursor = 'grabbing';
+    e.preventDefault();
+  });
+  
+  carouselContainer.addEventListener('mousemove', (e) => {
+    if (!isDragging) return;
+    e.preventDefault();
+    const x = e.pageX - carouselContainer.offsetLeft;
+    const walk = (x - startX) * 2;
+    carouselContainer.scrollLeft = scrollLeft - walk;
+  });
+  
+  carouselContainer.addEventListener('mouseup', () => {
+    if (isDragging) {
+      isDragging = false;
+      carouselContainer.style.cursor = 'grab';
+      
+      // Resume animation after a short delay
+      setTimeout(() => {
+        if (!animationPaused) {
+          carouselTrack.classList.remove('paused');
+        }
+      }, 1000);
+    }
+  });
+  
+  carouselContainer.addEventListener('mouseleave', () => {
+    if (isDragging) {
+      isDragging = false;
+      carouselContainer.style.cursor = 'default';
+      
+      // Resume animation after a short delay
+      setTimeout(() => {
+        if (!animationPaused) {
+          carouselTrack.classList.remove('paused');
+        }
+      }, 1000);
+    }
+  });
+  
+  // Touch events for mobile
+  carouselContainer.addEventListener('touchstart', (e) => {
+    isDragging = true;
+    carouselTrack.classList.add('paused');
+    startX = e.touches[0].pageX - carouselContainer.offsetLeft;
+    scrollLeft = carouselContainer.scrollLeft;
+  });
+  
+  carouselContainer.addEventListener('touchmove', (e) => {
+    if (!isDragging) return;
+    const x = e.touches[0].pageX - carouselContainer.offsetLeft;
+    const walk = (x - startX) * 2;
+    carouselContainer.scrollLeft = scrollLeft - walk;
+  });
+  
+  carouselContainer.addEventListener('touchend', () => {
+    if (isDragging) {
+      isDragging = false;
+      
+      // Resume animation after a short delay
+      setTimeout(() => {
+        carouselTrack.classList.remove('paused');
+      }, 1000);
+    }
+  });
+}
+
 // Add CSS animations dynamically
 const style = document.createElement('style');
 style.textContent = `
@@ -1554,5 +1696,30 @@ style.textContent = `
     transform: scale(0.95);
     animation: scaleIn 0.5s ease-out forwards;
   }
+  
+  @keyframes fadeIn {
+    to {
+      opacity: 1;
+    }
+  }
+  
+  @keyframes slideUp {
+    to {
+      opacity: 1;
+      transform: translateY(0);
+    }
+  }
+  
+  @keyframes scaleIn {
+    to {
+      opacity: 1;
+      transform: scale(1);
+    }
+  }
 `;
 document.head.appendChild(style);
+
+// Initialize carousel when DOM is loaded
+document.addEventListener('DOMContentLoaded', () => {
+  initializeCarousel();
+});
