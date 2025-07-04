@@ -1194,7 +1194,7 @@ document.querySelector('#app').innerHTML = `
               
               <div class="mb-8">
                 <p class="text-lg text-primary mb-2">12x de</p>
-                <p class="text-4xl md:text-5xl font-bold text-green-600 mb-2">194,56/ano</p>
+                <p class="text-4xl md:text-5xl font-bold text-black mb-2">R$ 194,56/ano</p>
                 <p class="text-xl text-primary font-medium">OU R$ 1.997 À VISTA</p>
               </div>
               
