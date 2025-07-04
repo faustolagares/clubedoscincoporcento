@@ -75,7 +75,7 @@ document.querySelector('#app').innerHTML = `
             
             <!-- CTA Button -->
             <div class="text-center mb-8 animate-slide-up">
-              <a href="#" class="btn-primary text-lg font-medium">
+              <a href="https://hotm.art/clube5-pv" class="btn-primary text-lg font-medium">
                 QUERO FAZER PARTE DOS 5%
               </a>
             </div>
@@ -401,7 +401,7 @@ document.querySelector('#app').innerHTML = `
             
             <!-- CTA Button -->
             <div class="text-center animate-slide-up">
-              <a href="#" class="btn-primary text-lg font-medium">
+              <a href="https://hotm.art/clube5-pv" class="btn-primary text-lg font-medium">
                 QUERO FAZER PARTE DOS 5%
               </a>
             </div>
@@ -490,7 +490,7 @@ document.querySelector('#app').innerHTML = `
           
           <!-- CTA Button -->
           <div class="text-center mt-12 mb-8 animate-slide-up">
-            <a href="#" class="btn-primary text-lg font-medium">
+            <a href="https://hotm.art/clube5-pv" class="btn-primary text-lg font-medium">
               QUERO FAZER PARTE DOS 5%
             </a>
           </div>
@@ -967,7 +967,7 @@ document.querySelector('#app').innerHTML = `
           <!-- Benefits Grid -->
           <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6 lg:gap-8 mb-16 animate-fade-in">
             <!-- Benefit 1 -->
-            <div class="bg-gray-50 border border-gray-200 rounded-xl p-6 text-center transition-all duration-300 hover:shadow-medium hover:border-accent">
+            <div class="bg-gray-50 border-0 rounded p-6 text-center transition-all duration-300 hover:border-accent">
               <h3 class="text-h4-mobile lg:text-h4-desktop font-aeonik font-medium text-primary mb-4">
                 1 ano de acesso<br>
                 integral ao Clube<br>
@@ -976,7 +976,7 @@ document.querySelector('#app').innerHTML = `
             </div>
             
             <!-- Benefit 2 -->
-            <div class="bg-gray-50 border border-gray-200 rounded-xl p-6 text-center transition-all duration-300 hover:shadow-medium hover:border-accent">
+            <div class="bg-gray-50 border-0 rounded p-6 text-center transition-all duration-300 hover:border-accent">
               <h3 class="text-h4-mobile lg:text-h4-desktop font-aeonik font-medium text-primary mb-4">
                 Material<br>
                 complementar<br>
@@ -987,7 +987,7 @@ document.querySelector('#app').innerHTML = `
             </div>
             
             <!-- Benefit 3 -->
-            <div class="bg-gray-50 border border-gray-200 rounded-xl p-6 text-center transition-all duration-300 hover:shadow-medium hover:border-accent">
+            <div class="bg-gray-50 border-0 rounded p-6 text-center transition-all duration-300 hover:border-accent">
               <h3 class="text-h4-mobile lg:text-h4-desktop font-aeonik font-medium text-primary mb-4">
                 Acompanhamento<br>
                 e suporte técnico.
@@ -995,7 +995,7 @@ document.querySelector('#app').innerHTML = `
             </div>
             
             <!-- Benefit 4 -->
-            <div class="bg-gray-50 border border-gray-200 rounded-xl p-6 text-center transition-all duration-300 hover:shadow-medium hover:border-accent">
+            <div class="bg-gray-50 border-0 rounded p-6 text-center transition-all duration-300 hover:border-accent">
               <h3 class="text-h4-mobile lg:text-h4-desktop font-aeonik font-medium text-primary mb-4">
                 12 ciclos de estudos<br>
                 prontos para você<br>
@@ -1027,10 +1027,8 @@ document.querySelector('#app').innerHTML = `
           <!-- Books Grid -->
           <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6 lg:gap-8 animate-fade-in">
             <!-- Book 1 -->
-            <div class="bg-white border border-gray-200 rounded-xl p-6 shadow-soft transition-all duration-300 hover:shadow-medium hover:border-accent">
-              <div class="bg-gray-100 border border-gray-300 rounded-lg p-4 mb-4 text-center">
-                <p class="text-sm text-gray-600">[capa do livro]</p>
-              </div>
+            <div class="bg-white border border-gray-200 rounded p-6 transition-all duration-300 hover:border-accent">
+              <img src="https://ucarecdn.com/d9ceb922-7219-4166-a1ec-149f8a60b2bd/oobvioqueignoramos.PNG" alt="Capa do livro O óbvio que ignoramos" class="w-full h-auto rounded-lg mb-4">
               <h4 class="text-h5-mobile lg:text-h5-desktop font-aeonik font-medium text-primary mb-3 text-center">
                 O óbvio de<br>
                 ignoramos
@@ -1041,10 +1039,8 @@ document.querySelector('#app').innerHTML = `
             </div>
             
             <!-- Book 2 -->
-            <div class="bg-white border border-gray-200 rounded-xl p-6 shadow-soft transition-all duration-300 hover:shadow-medium hover:border-accent">
-              <div class="bg-gray-100 border border-gray-300 rounded-lg p-4 mb-4 text-center">
-                <p class="text-sm text-gray-600">[capa do livro]</p>
-              </div>
+            <div class="bg-white border border-gray-200 rounded p-6 transition-all duration-300 hover:border-accent">
+              <img src="https://ucarecdn.com/9d5cc392-e858-4f7e-a55b-b3b0578a3a80/poderemanipulacao.PNG" alt="Capa do livro Poder e Manipulação" class="w-full h-auto rounded-lg mb-4">
               <h4 class="text-h5-mobile lg:text-h5-desktop font-aeonik font-medium text-primary mb-3 text-center">
                 Poder e<br>
                 Manipulação
@@ -1055,10 +1051,8 @@ document.querySelector('#app').innerHTML = `
             </div>
             
             <!-- Book 3 -->
-            <div class="bg-white border border-gray-200 rounded-xl p-6 shadow-soft transition-all duration-300 hover:shadow-medium hover:border-accent">
-              <div class="bg-gray-100 border border-gray-300 rounded-lg p-4 mb-4 text-center">
-                <p class="text-sm text-gray-600">[capa do livro]</p>
-              </div>
+            <div class="bg-white border border-gray-200 rounded p-6 transition-all duration-300 hover:border-accent">
+              <img src="https://ucarecdn.com/9b1834ce-b9ff-44a7-b158-df26e3bdf218/as16leisdosucesso.PNG" alt="Capa do livro As 16 leis do sucesso" class="w-full h-auto rounded-lg mb-4">
               <h4 class="text-h5-mobile lg:text-h5-desktop font-aeonik font-medium text-primary mb-3 text-center">
                 As 16 leis do<br>
                 sucesso
@@ -1069,14 +1063,10 @@ document.querySelector('#app').innerHTML = `
             </div>
             
             <!-- Book 4 -->
-            <div class="bg-white border border-gray-200 rounded-xl p-6 shadow-soft transition-all duration-300 hover:shadow-medium hover:border-accent">
-              <div class="bg-gray-100 border border-gray-300 rounded-lg p-4 mb-4 text-center">
-                <p class="text-sm text-gray-600">[capa do livro]</p>
-              </div>
+            <div class="bg-white border border-gray-200 rounded p-6 transition-all duration-300 hover:border-accent">
+              <img src="https://ucarecdn.com/dcb33644-5cba-4628-b589-9926cd56eb39/sejasingular.PNG" alt="Capa do livro Seja Singular" class="w-full h-auto rounded-lg mb-4">
               <h4 class="text-h5-mobile lg:text-h5-desktop font-aeonik font-medium text-primary mb-3 text-center">
-                Seja Singular: as<br>
-                incríveis vantagens<br>
-                de ser diferente
+                Seja Singular: as incríveis vantagens de ser diferente
               </h4>
               <p class="text-body-mobile text-primary/80 leading-relaxed text-sm">
                 Em um mundo que premia a repetição, ser você mesmo é um ato revolucionário. Neste livro, Jacob defende a originalidade como caminho para o sucesso, mostrando como descobrir e sustentar sua autenticidade em meio ao caos externo.
@@ -1086,7 +1076,7 @@ document.querySelector('#app').innerHTML = `
           
           <!-- CTA Button -->
           <div class="text-center mt-16 animate-slide-up">
-            <a href="#" class="btn-primary text-lg font-medium">
+            <a href="https://hotm.art/clube5-pv" class="btn-primary text-lg font-medium">
               QUERO FAZER PARTE DOS 5%
             </a>
           </div>
@@ -1194,11 +1184,11 @@ document.querySelector('#app').innerHTML = `
               
               <div class="mb-8">
                 <p class="text-lg text-primary mb-2">12x de</p>
-                <p class="text-4xl md:text-5xl font-bold text-black mb-2">R$ 194,56/ano</p>
+                <p class="text-4xl md:text-5xl font-bold text-green-600 mb-2">194,56/ano</p>
                 <p class="text-xl text-primary font-medium">OU R$ 1.997 À VISTA</p>
               </div>
               
-              <a href="#" class="inline-block bg-green-600 text-white px-8 py-4 rounded-lg text-xl font-medium hover:bg-green-700 transition-all duration-300 transform hover:scale-105 hover:shadow-lg text-decoration-none border-b-4 border-green-700">
+              <a href="https://hotm.art/clube5-pv" class="inline-block bg-green-600 text-primary px-8 py-4 rounded-lg text-xl font-medium hover:bg-green-700 transition-all duration-300 transform hover:scale-105 hover:shadow-lg text-decoration-none border-b-4 border-green-700">
                 ENTRAR NO CLUBE DOS 5%
               </a>
             </div>
@@ -1340,7 +1330,7 @@ document.querySelector('#app').innerHTML = `
         
         <!-- CTA Button -->
         <div class="text-center mb-16 animate-slide-up">
-          <a href="#" class="btn-primary text-lg font-medium">
+          <a href="https://hotm.art/clube5-pv" class="btn-primary text-lg font-medium">
             QUERO FAZER PARTE DOS 5%
           </a>
         </div>
