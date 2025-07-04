@@ -253,6 +253,45 @@ h1, h2, h3, h4, h5, h6 {
   text-align: center;
 }
 
+.benefit-card {
+  background-color: #000000;
+  border: 1px solid var(--color-accent);
+  border-radius: 2px;
+  padding: 2rem;
+  text-align: center;
+  transition: all 0.3s ease;
+  min-height: 240px;
+}
+
+.benefit-card:hover {
+  transform: translateY(-8px);
+  border-color: rgba(165, 152, 123, 0.8);
+}
+
+.benefit-card h3 {
+  font-family: 'Aeonik', sans-serif;
+  font-weight: 500;
+  font-size: 1.25rem;
+  line-height: 1.3;
+  color: var(--color-white);
+  margin: 1rem 0 0.5rem 0;
+  text-align: center;
+}
+
+.benefit-icon {
+  width: 80px;
+  height: 80px;
+  margin: 0 auto 1.5rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: all 0.3s ease;
+}
+
+.benefit-card:hover .benefit-icon {
+  transform: scale(1.1);
+}
+
 .feature-icon {
   width: 60px;
   height: 60px;
@@ -590,7 +629,7 @@ h1, h2, h3, h4, h5, h6 {
 .journey-phase-box {
   background: rgba(165, 152, 123, 0.1);
   border: 2px solid var(--color-accent);
-  border-radius: 1rem;
+  border-radius: 2px;
   padding: 2rem;
   text-align: center;
   position: relative;
@@ -642,7 +681,7 @@ h1, h2, h3, h4, h5, h6 {
 .journey-description-box {
   background: rgba(255, 255, 255, 0.05);
   border: 1px solid rgba(255, 255, 255, 0.1);
-  border-radius: 1rem;
+  border-radius: 2px;
   padding: 1.5rem;
   text-align: center;
   backdrop-filter: blur(10px);
@@ -759,5 +798,159 @@ h1, h2, h3, h4, h5, h6 {
     border-left: 16px solid var(--color-white);
     border-top: 10px solid transparent;
     border-bottom: 10px solid transparent;
+  }
+}
+
+/* Cards Carousel Styles */
+.card-carousel-container {
+  width: 100vw;
+  position: relative;
+  left: 50%;
+  right: 50%;
+  margin-left: -50vw;
+  margin-right: -50vw;
+  overflow: hidden;
+  height: 380px;
+  background: transparent;
+}
+
+.carousel-track {
+  display: flex;
+  width: fit-content;
+  animation: infinite-scroll 60s linear infinite;
+  gap: 1.5rem;
+  will-change: transform;
+}
+
+.carousel-track.paused {
+  animation-play-state: paused;
+}
+
+.carousel-card {
+  flex-shrink: 0;
+  width: 260px;
+  height: 360px;
+  border-radius: 2px;
+  overflow: hidden;
+  transition: all 0.3s ease;
+  cursor: pointer;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.3);
+}
+
+.carousel-card:hover {
+  transform: scale(1.05);
+  box-shadow: 0 8px 40px rgba(0, 0, 0, 0.4);
+  z-index: 10;
+}
+
+.carousel-card img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  display: block;
+  transition: all 0.3s ease;
+}
+
+.carousel-card:hover img {
+  filter: brightness(1.1);
+}
+
+@keyframes infinite-scroll {
+  0% {
+    transform: translateX(0);
+  }
+  100% {
+    transform: translateX(-50%);
+  }
+}
+
+/* Mobile responsive */
+@media (max-width: 768px) {
+  .card-carousel-container {
+    height: 350px;
+  }
+  
+  .carousel-card {
+    width: 240px;
+    height: 330px;
+  }
+  
+  .carousel-track {
+    gap: 1rem;
+    animation-duration: 45s;
+  }
+}
+
+@media (max-width: 480px) {
+  .card-carousel-container {
+    height: 320px;
+  }
+  
+  .carousel-card {
+    width: 220px;
+    height: 300px;
+  }
+  
+  .carousel-track {
+    gap: 0.75rem;
+    animation-duration: 40s;
+  }
+}
+
+/* Testimonials Section with Background and Glassmorphism */
+.testimonials-section {
+  position: relative;
+  background-image: url('https://ucarecdn.com/ab17a24a-4c36-4d2c-b7bb-6173831c0558/backgroundtestimonials.png');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: scroll;
+}
+
+.testimonials-section::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: rgba(0, 0, 0, 0.7);
+  backdrop-filter: blur(8px);
+  -webkit-backdrop-filter: blur(8px);
+  z-index: 1;
+}
+
+.testimonials-section > * {
+  position: relative;
+  z-index: 2;
+}
+
+/* Mobile optimization */
+@media (max-width: 768px) {
+  .testimonials-section::before {
+    backdrop-filter: blur(6px);
+    -webkit-backdrop-filter: blur(6px);
+    background: rgba(0, 0, 0, 0.75);
+  }
+}
+
+/* Jacob Petry Bio Section - Mobile Background Position */
+@media (max-width: 768px) {
+  section[style*="jacobpetrybio.JPG"] {
+    background-position: right center !important;
+  }
+  
+  /* Remove gradient and use simple overlay on mobile */
+  section[style*="jacobpetrybio.JPG"] .bg-gradient-to-r {
+    background: rgba(0, 0, 0, 0.6) !important;
+  }
+}
+
+/* Books Images - Mobile Size Reduction */
+@media (max-width: 768px) {
+  .book-cover-img {
+    width: 60% !important;
+    height: auto !important;
+    margin: 0 auto !important;
   }
 }
