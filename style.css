@@ -810,7 +810,7 @@ h1, h2, h3, h4, h5, h6 {
   margin-left: -50vw;
   margin-right: -50vw;
   overflow: hidden;
-  height: 380px;
+  height: 456px;
   background: transparent;
 }
 
@@ -828,8 +828,8 @@ h1, h2, h3, h4, h5, h6 {
 
 .carousel-card {
   flex-shrink: 0;
-  width: 260px;
-  height: 360px;
+  width: 312px;
+  height: 432px;
   border-radius: 2px;
   overflow: hidden;
   transition: all 0.3s ease;
