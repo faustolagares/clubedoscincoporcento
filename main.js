@@ -918,8 +918,8 @@ document.querySelector('#app').innerHTML = `
         <div class="text-center max-w-6xl mx-auto">
           <!-- Headline -->
           <h2 class="text-h2-mobile lg:text-h2-desktop font-aeonik font-medium text-white mb-16 animate-slide-up">
-            <span class="hidden lg:inline">Entenda melhor sua jornada<br>dentro do Clube dos 5%</span>
-            <span class="lg:hidden">Entenda melhor sua<br>jornada dentro do<br>Clube dos 5%</span>
+            Entenda melhor sua jornada<br>
+            dentro do Clube dos 5%
           </h2>
           
           <!-- Journey Diagram -->
