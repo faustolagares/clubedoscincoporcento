@@ -75,7 +75,7 @@ document.querySelector('#app').innerHTML = `
             
             <!-- CTA Button -->
             <div class="text-center mb-8 animate-slide-up">
-              <a href="https://hotm.art/clube5-pv" class="btn-primary text-lg font-medium">
+              <a href="#pricing" class="btn-primary text-lg font-medium">
                 QUERO FAZER PARTE DOS 5%
               </a>
             </div>
@@ -214,7 +214,7 @@ document.querySelector('#app').innerHTML = `
             
             <!-- CTA Button -->
             <div class="text-center">
-              <a href="#" class="btn-primary text-lg font-medium">
+              <a href="#pricing" class="btn-primary text-lg font-medium">
                 QUERO VIVER UMA VIDA PLENA
               </a>
             </div>
@@ -401,7 +401,7 @@ document.querySelector('#app').innerHTML = `
             
             <!-- CTA Button -->
             <div class="text-center animate-slide-up">
-              <a href="https://hotm.art/clube5-pv" class="btn-primary text-lg font-medium">
+              <a href="#pricing" class="btn-primary text-lg font-medium">
                 QUERO FAZER PARTE DOS 5%
               </a>
             </div>
@@ -490,7 +490,7 @@ document.querySelector('#app').innerHTML = `
           
           <!-- CTA Button -->
           <div class="text-center mt-12 mb-8 animate-slide-up">
-            <a href="https://hotm.art/clube5-pv" class="btn-primary text-lg font-medium">
+            <a href="#pricing" class="btn-primary text-lg font-medium">
               QUERO FAZER PARTE DOS 5%
             </a>
           </div>
@@ -882,7 +882,7 @@ document.querySelector('#app').innerHTML = `
           
           <!-- CTA Button -->
           <div class="text-center animate-slide-up">
-            <a href="#" class="btn-primary text-lg font-medium">
+            <a href="#pricing" class="btn-primary text-lg font-medium">
               QUERO BRILHAR MAIS
             </a>
           </div>
@@ -967,8 +967,8 @@ document.querySelector('#app').innerHTML = `
           <!-- Benefits Grid -->
           <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6 lg:gap-8 mb-16 animate-fade-in">
             <!-- Benefit 1 -->
-            <div class="bg-gray-50 border-0 rounded p-6 text-center transition-all duration-300 hover:border-accent">
-              <h3 class="text-h4-mobile lg:text-h4-desktop font-aeonik font-medium text-primary mb-4">
+            <div class="feature-card">
+              <h3 class="text-h4-mobile lg:text-h4-desktop font-aeonik font-medium text-white mb-4">
                 1 ano de acesso<br>
                 integral ao Clube<br>
                 dos 5%.
@@ -976,8 +976,8 @@ document.querySelector('#app').innerHTML = `
             </div>
             
             <!-- Benefit 2 -->
-            <div class="bg-gray-50 border-0 rounded p-6 text-center transition-all duration-300 hover:border-accent">
-              <h3 class="text-h4-mobile lg:text-h4-desktop font-aeonik font-medium text-primary mb-4">
+            <div class="feature-card">
+              <h3 class="text-h4-mobile lg:text-h4-desktop font-aeonik font-medium text-white mb-4">
                 Material<br>
                 complementar<br>
                 (Workbooks)<br>
@@ -987,16 +987,16 @@ document.querySelector('#app').innerHTML = `
             </div>
             
             <!-- Benefit 3 -->
-            <div class="bg-gray-50 border-0 rounded p-6 text-center transition-all duration-300 hover:border-accent">
-              <h3 class="text-h4-mobile lg:text-h4-desktop font-aeonik font-medium text-primary mb-4">
+            <div class="feature-card">
+              <h3 class="text-h4-mobile lg:text-h4-desktop font-aeonik font-medium text-white mb-4">
                 Acompanhamento<br>
                 e suporte técnico.
               </h3>
             </div>
             
             <!-- Benefit 4 -->
-            <div class="bg-gray-50 border-0 rounded p-6 text-center transition-all duration-300 hover:border-accent">
-              <h3 class="text-h4-mobile lg:text-h4-desktop font-aeonik font-medium text-primary mb-4">
+            <div class="feature-card">
+              <h3 class="text-h4-mobile lg:text-h4-desktop font-aeonik font-medium text-white mb-4">
                 12 ciclos de estudos<br>
                 prontos para você<br>
                 devorar e acelerar<br>
@@ -1025,7 +1025,7 @@ document.querySelector('#app').innerHTML = `
           </div>
           
           <!-- Books Grid -->
-          <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6 lg:gap-8 animate-fade-in">
+          <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-4 animate-fade-in">
             <!-- Book 1 -->
             <div class="bg-white border border-gray-200 rounded p-6 transition-all duration-300 hover:border-accent">
               <img src="https://ucarecdn.com/d9ceb922-7219-4166-a1ec-149f8a60b2bd/oobvioqueignoramos.PNG" alt="Capa do livro O óbvio que ignoramos" class="w-full h-auto rounded-lg mb-4">
@@ -1076,7 +1076,7 @@ document.querySelector('#app').innerHTML = `
           
           <!-- CTA Button -->
           <div class="text-center mt-16 animate-slide-up">
-            <a href="https://hotm.art/clube5-pv" class="btn-primary text-lg font-medium">
+            <a href="#pricing" class="btn-primary text-lg font-medium">
               QUERO FAZER PARTE DOS 5%
             </a>
           </div>
@@ -1085,7 +1085,7 @@ document.querySelector('#app').innerHTML = `
     </section>
     
     <!-- Pricing Section -->
-    <section class="py-16 bg-white">
+    <section id="pricing" class="py-16 bg-white">
       <div class="container-custom">
         <div class="max-w-4xl mx-auto">
           <!-- Recapitular -->
@@ -1174,23 +1174,121 @@ document.querySelector('#app').innerHTML = `
               Essa oferta vai acabar!
             </h2>
             
-            <div class="bg-white border-2 border-primary rounded-lg p-8 max-w-lg mx-auto">
-              <h3 class="text-2xl md:text-3xl font-aeonik font-medium text-primary mb-6">
-                Seja membro do<br>
-                Clube dos 5%
-              </h3>
-              
-              <p class="text-xl text-primary mb-6">por apenas:</p>
-              
-              <div class="mb-8">
-                <p class="text-lg text-primary mb-2">12x de</p>
-                <p class="text-4xl md:text-5xl font-bold text-green-600 mb-2">194,56/ano</p>
-                <p class="text-xl text-primary font-medium">OU R$ 1.997 À VISTA</p>
+            <!-- Premium Pricing Card -->
+            <div class="max-w-md mx-auto">
+              <!-- Main Card -->
+              <div class="bg-primary border-2 border-accent rounded p-8">
+                <!-- Popular Badge -->
+                <div class="text-center mb-4">
+                  <div class="bg-accent text-primary px-6 py-2 rounded text-sm font-bold inline-block">
+                    OFERTA LIMITADA
+                  </div>
+                </div>
+                
+                <!-- Card Header -->
+                <div class="text-center mb-6">
+                  <h3 class="text-2xl md:text-3xl font-aeonik font-bold text-white mb-2">
+                    Seja membro do
+                  </h3>
+                  <h3 class="text-3xl md:text-4xl font-aeonik font-bold text-accent mb-4">
+                    Clube dos 5%
+                  </h3>
+                  <p class="text-lg text-white/70">por apenas:</p>
+                </div>
+                
+                <!-- Pricing Display -->
+                <div class="text-center mb-8">
+                  <!-- Monthly Price -->
+                  <div class="p-6 mb-4 text-white">
+                    <p class="text-xl mb-3">12x de</p>
+                    <div class="flex items-center justify-center gap-2">
+                      <span class="text-4xl">R$</span>
+                      <span class="text-7xl md:text-8xl font-bold">194</span>
+                      <div class="text-left">
+                        <span class="text-4xl">,56</span>
+                        <p class="text-base opacity-90">no plano anual</p>
+                      </div>
+                    </div>
+                  </div>
+                  
+                  <!-- Divider -->
+                  <div class="flex items-center justify-center my-4">
+                    <div class="border-t border-accent flex-1"></div>
+                    <span class="px-4 text-white/60 font-medium">OU</span>
+                    <div class="border-t border-accent flex-1"></div>
+                  </div>
+                  
+                  <!-- Annual Price -->
+                  <div class="p-4 text-white relative">
+                    <div class="text-accent text-xs font-bold mb-2">
+                      ECONOMIZE
+                    </div>
+                    <p class="text-xl font-bold">R$ 1.997 À VISTA</p>
+                    <p class="text-sm opacity-80">Pagamento único</p>
+                  </div>
+                </div>
+                
+                <!-- Features List -->
+                <div class="mb-8">
+                  <div class="space-y-3">
+                    <div class="flex items-center gap-3">
+                      <div class="w-5 h-5 bg-green rounded-full flex items-center justify-center flex-shrink-0">
+                        <svg class="w-3 h-3 text-white" fill="currentColor" viewBox="0 0 20 20">
+                          <path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd"></path>
+                        </svg>
+                      </div>
+                      <span class="text-sm text-white font-medium">Acesso por 12 meses completos</span>
+                    </div>
+                    <div class="flex items-center gap-3">
+                      <div class="w-5 h-5 bg-green rounded-full flex items-center justify-center flex-shrink-0">
+                        <svg class="w-3 h-3 text-white" fill="currentColor" viewBox="0 0 20 20">
+                          <path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd"></path>
+                        </svg>
+                      </div>
+                      <span class="text-sm text-white font-medium">Box com 4 livros best-seller</span>
+                    </div>
+                    <div class="flex items-center gap-3">
+                      <div class="w-5 h-5 bg-green rounded-full flex items-center justify-center flex-shrink-0">
+                        <svg class="w-3 h-3 text-white" fill="currentColor" viewBox="0 0 20 20">
+                          <path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd"></path>
+                        </svg>
+                      </div>
+                      <span class="text-sm text-white font-medium">Mentoria AO VIVO toda semana</span>
+                    </div>
+                    <div class="flex items-center gap-3">
+                      <div class="w-5 h-5 bg-green rounded-full flex items-center justify-center flex-shrink-0">
+                        <svg class="w-3 h-3 text-white" fill="currentColor" viewBox="0 0 20 20">
+                          <path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd"></path>
+                        </svg>
+                      </div>
+                      <span class="text-sm text-white font-medium">12 Ciclos de Estudos Completos</span>
+                    </div>
+                  </div>
+                </div>
+                
+                <!-- CTA Button -->
+                <div class="text-center">
+                  <a href="https://hotm.art/clube5-pv" target="_blank" class="w-full bg-accent hover:bg-accent/90 text-primary font-bold py-4 px-8 rounded text-lg transform hover:scale-105 transition-all duration-300 inline-block">
+                    ENTRAR NO CLUBE DOS 5%
+                  </a>
+                  
+                  <!-- Security badges -->
+                  <div class="flex items-center justify-center gap-4 mt-4 text-xs text-white/60">
+                    <div class="flex items-center gap-1">
+                      <svg class="w-4 h-4" fill="currentColor" viewBox="0 0 20 20">
+                        <path fill-rule="evenodd" d="M5 9V7a5 5 0 0110 0v2a2 2 0 012 2v5a2 2 0 01-2 2H5a2 2 0 01-2-2v-5a2 2 0 012-2zm8-2v2H7V7a3 3 0 016 0z" clip-rule="evenodd"></path>
+                      </svg>
+                      <span>Pagamento Seguro</span>
+                    </div>
+                    <div class="flex items-center gap-1">
+                      <svg class="w-4 h-4" fill="currentColor" viewBox="0 0 20 20">
+                        <path fill-rule="evenodd" d="M6.267 3.455a3.066 3.066 0 001.745-.723 3.066 3.066 0 013.976 0 3.066 3.066 0 001.745.723 3.066 3.066 0 012.812 2.812c.051.643.304 1.254.723 1.745a3.066 3.066 0 010 3.976 3.066 3.066 0 00-.723 1.745 3.066 3.066 0 01-2.812 2.812 3.066 3.066 0 00-1.745.723 3.066 3.066 0 01-3.976 0 3.066 3.066 0 00-1.745-.723 3.066 3.066 0 01-2.812-2.812 3.066 3.066 0 00-.723-1.745 3.066 3.066 0 010-3.976 3.066 3.066 0 00.723-1.745 3.066 3.066 0 012.812-2.812zm7.44 5.252a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clip-rule="evenodd"></path>
+                      </svg>
+                      <span>Garantia 7 dias</span>
+                    </div>
+                  </div>
+                </div>
               </div>
-              
-              <a href="https://hotm.art/clube5-pv" class="inline-block bg-green-600 text-primary px-8 py-4 rounded-lg text-xl font-medium hover:bg-green-700 transition-all duration-300 transform hover:scale-105 hover:shadow-lg text-decoration-none border-b-4 border-green-700">
-                ENTRAR NO CLUBE DOS 5%
-              </a>
             </div>
           </div>
         </div>
@@ -1243,11 +1341,11 @@ document.querySelector('#app').innerHTML = `
             
             <!-- WhatsApp CTA Button -->
             <div class="text-center animate-slide-up">
-              <div class="w-6 h-6 bg-green-500 border-2 border-green-500 rounded flex items-center justify-center mt-1 flex-shrink-0">
-                <svg class="w-4 h-4 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                  <path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893A11.821 11.821 0 0020.893 3.506" fill="currentColor"/>
+              <a href="https://wa.me/551151920697" target="_blank" class="inline-flex items-center justify-center gap-3 bg-green-500 hover:bg-green-600 text-white font-bold py-4 px-8 rounded text-lg transform hover:scale-105 transition-all duration-300">
+                <svg class="w-6 h-6 flex-shrink-0" fill="currentColor" viewBox="0 0 24 24">
+                  <path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893A11.821 11.821 0 0020.893 3.506"/>
                 </svg>
-                TIRAR DÚVIDA PELO WHATSAPP
+                <span>TIRAR DÚVIDA PELO WHATSAPP</span>
               </a>
             </div>
           </div>
@@ -1330,7 +1428,7 @@ document.querySelector('#app').innerHTML = `
         
         <!-- CTA Button -->
         <div class="text-center mb-16 animate-slide-up">
-          <a href="https://hotm.art/clube5-pv" class="btn-primary text-lg font-medium">
+          <a href="#pricing" class="btn-primary text-lg font-medium">
             QUERO FAZER PARTE DOS 5%
           </a>
         </div>
